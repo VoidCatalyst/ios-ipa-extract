@@ -32,6 +32,21 @@ even for large apps and flaky links.
 
 ---
 
+## Proof of concept
+
+Real run against a jailbroken device from Kali, connected over Wi-Fi
+(`-j 8` = 8 parallel download streams):
+
+**Listing installed apps (`-l`):**
+
+![App listing output](docs/poc-list-apps.png)
+
+**Extracting an app by name:**
+
+![Extraction run output](docs/poc-extract-run.png)
+
+---
+
 ## Requirements
 
 ### On the computer you run it from (Kali, Linux, macOS, WSL)
