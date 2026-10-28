@@ -1,0 +1,17 @@
+# extract-ipa.conf — per-user settings for extract-ipa.sh
+#
+# Copy this file to "extract-ipa.conf" (same folder as the script) or to
+# ~/.config/extract-ipa.conf, then fill in your own device details.
+# Command-line flags (-H/-u/-p/-j) still override anything set here.
+
+# IP or hostname of your jailbroken device (Settings > Wi-Fi > your network)
+HOST=192.168.1.55
+
+# SSH username on the device (usually "mobile", sometimes "root")
+SSH_USER=mobile
+
+# SSH password. Leave empty if you use an SSH key instead (recommended).
+PASS=alpine
+
+# Number of parallel download streams (higher = faster on a good link)
+JOBS=8

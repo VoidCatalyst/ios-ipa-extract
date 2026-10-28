@@ -1,0 +1,15 @@
+# Personal device config (contains host/credentials)
+extract-ipa.conf
+.extract-ipa.conf
+
+# Extraction output
+*.ipa
+*.tar
+Payload/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
